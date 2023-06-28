@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif, Arial, Helvetica;
+}
+.sidebar {
+  border-top: 1px solid #dadada;
+  border-right: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  text-transform: uppercase;
+  margin: 1rem;
+  padding: 2rem 0 2rem 0;
+  width: 10rem;
+  height: 80vh;
+}
+#sb-heading {
+  color: blueviolet;
+  padding: 0 0.5rem 0 0.5rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.sb-item {
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.sb-item:hover {
+  font-weight: 600;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}

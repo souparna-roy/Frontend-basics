@@ -1,0 +1,58 @@
+.grid-container {
+  /* Grid properties below this line */
+  display: grid;
+  grid-template-rows: repeat(4, 8rem);
+  grid-template-columns: repeat(3, 33.33%);
+  /* Grid properties above this line */
+}
+
+#item-1 {
+  /* Grid properties below this line */
+  background-color: red;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  /* Grid properties above this line */
+}
+
+#item-2 {
+  /* Grid properties below this line */
+  background-color: blue;
+  grid-column-start: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  /* Grid properties above this line */
+}
+
+#item-3 {
+  /* Grid properties below this line */
+  background-color: yellow;
+  grid-column-start: 1;
+  grid-row-start: 2;
+  grid-row-end: 5;
+  /* grid-row-start: 2;
+  grid-row-end: 5; */
+  /* Grid properties above this line */
+}
+#item-4 {
+  /* Grid properties below this line */
+  background-color: chocolate;
+  /* grid-column-start: 2; */
+  /* Grid properties above this line */
+}
+
+#item-5 {
+  /* Grid properties below this line */
+  background-color: crimson;
+  /* grid-column-start: 2; */
+  /* Grid properties above this line */
+}
+
+#item-6 {
+  /* Grid properties below this line */
+  background-color: darkcyan;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  /* grid-column-start: 2;
+  grid-column-end: 4; */
+  /* Grid properties above this line */
+}
